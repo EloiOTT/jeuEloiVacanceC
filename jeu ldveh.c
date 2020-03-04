@@ -293,7 +293,7 @@ int main()
 
         if (pv < 1){
           printf("Vous vous écroulez au sol. Vous n'avez plus la force de tenir debout, ni même de garder les yeux ouverts. Vous vous enfoncez dans un profond sommeil dont vous n'allez pas vous réveiller. \n");
-          break;
+          return 0;
         }
       }
     }
@@ -338,7 +338,7 @@ int main()
 
           if (pv < 1){
             printf("Malgré cela, vous vous écroulez tout de même au sol. Vous n'avez plus la force de tenir debout, ni même de garder les yeux ouverts. Vous vous enfoncez dans un profond sommeil dont vous n'allez pas vous réveiller. \n");
-            break;
+            return 0;
           }
         }
 
@@ -349,7 +349,7 @@ int main()
 
           if (pv < 1){
             printf("Vous vous écroulez au sol. Vous n'avez plus la force de tenir debout, ni même de garder les yeux ouverts. Vous vous enfoncez dans un profond sommeil dont vous n'allez pas vous réveiller. \n");
-            break;
+            return 0;
           }
         }
       }
@@ -362,7 +362,7 @@ int main()
 
     if (pv < 1){
       printf("Vous vous écroulez au sol. Vous n'avez plus la force de tenir debout, ni même de garder les yeux ouverts. Vous vous enfoncez dans un profond sommeil dont vous n'allez pas vous réveiller. Vous êtes mort en sauvant Eldraine, au côté de votre roi, alors comment espérer une mort plus honorable? \n");
-      break;
+      return 0;
     }
     printf("Quelques jours plus tard, vous parté de chez vous le matin pour vous rendre au château, comme à votre habitude. la grande ville était en reconstruction, et les murs de la partie gauche du château étaient remplacés par des potos en bois en attendant. Tous les chevaliers aptes à travailler avaient été mobilisés pour rebâtir la ville fortifiée. Mais Kenrith vous avait demandé de ne pas y participer, et de venir le voir, ce matin même. Le plafon de la salle du trône avait lui aussi subit des dégâts. Ce matin là, la lumière du soleil venait éclairer le trône où était fièrement assit le grand roi Kenrith, une image qui vous parru illustrer le fait que même les dieux ne pouvaient imaginer un roi plus légitime que lui. Il se leva et esquissa son premier sourire depuis l'assaut. Alors, il prononça haut et fort à quel point il était fier d'avoir des chevaliers aussi vaillant que vous à sa solde. C'est la raison pour laquelle, aujourd'hui, vous venez d'obtenir le titre de Syr de la cour d'Eldraine.");
   }
@@ -388,7 +388,7 @@ int main()
 
     if (pv < 1){
       printf("Vous lachez votre épée. Vous n'avez plus la force de bouger, ni même de garder les yeux ouverts. Vous vous enfoncez dans un profond sommeil dont vous n'allez pas vous réveiller. Vous êtes mort en tuant la plus grande menace de votre monde, alors comment espérer une mort plus honorable? \n");
-      break;
+      return 0;
     }
 
     printf("Vous revenez difficilement à la surface, épuisé. Pouvant de nouveau repirer, votre premier reflexe fût d'attraper une planche du navire complètement détruit par le serpent du Lochmere. Vos pauîères deviennent de plus en plus lourdes, vous vous endormé, exténué par toute cette aventure, en espérant dériver jusqu'au village portuaire de la côte et que l'on vous retrouve rapidement.");
